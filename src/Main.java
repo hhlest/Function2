@@ -8,12 +8,8 @@ public class Main {
     }
 
     public static Integer countLetters(String str){
-        int counter = 0;
         String regex = "[^bcdfghjklmnpqrstvwxz]";
         String strResult = str.toLowerCase().replaceAll(regex, "");
-        for (int i = 0; i < strResult.length(); i++) {
-            counter++;
-        }
-        return counter;
+        return strResult.length();
     }
 }
