@@ -2,7 +2,7 @@ import java.util.function.Function;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "Hello 2 worlD";
+        String str = "Hello 2 worlD++";
         Function<String, Integer> fun1 = a -> countLetters(str);
         System.out.println(fun1.apply(str));
     }
